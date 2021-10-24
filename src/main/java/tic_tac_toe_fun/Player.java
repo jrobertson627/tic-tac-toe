@@ -1,8 +1,10 @@
-public class player {
+package tic_tac_toe_fun;
+
+public class Player {
     String name;
     char symbol;
     
-    player(String playerName, char playerSymbol) {
+    Player(String playerName, char playerSymbol) {
         this.name = playerName;
         this.symbol = playerSymbol;
     }
